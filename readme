@@ -1,0 +1,107 @@
+
+---
+
+## 📝 Atividade 1 - Estrutura inicial
+- Criação da pasta do projeto com `index.html` e `style.css`.  
+- Definição de tema e paleta de cores.  
+
+---
+
+## 📝 Atividade 2 - Personalização do Texto
+- Página com largura fixa de **1000px**.  
+- Fonte geral definida como **sans-serif**.  
+- Parágrafos indentados em **1em**.  
+- Títulos alinhados ao **centro**, com tamanhos específicos:  
+  - **h1** → 1.8rem  
+  - **h2** → 1.4rem  
+  - **h3** → 1.2rem  
+- **Resumo (`.summary`)** centralizado.  
+- **Principal (`.main p`)** com espaçamento de linha **1.5**.  
+- Abreviações `<abbr>` em **small-caps**.  
+
+---
+
+## 📝 Atividade 3 - Layout e Menus
+### 1. Diretrizes gerais
+- Página em **80% de largura**, limitada a **1280px**, centralizada.  
+- Altura da seção de introdução (`.intro`) definida em **550px**.  
+- Container `#design-archives` removido da renderização.  
+
+### 2. Cabeçalho
+- Inversão de cores: **fundo escuro** e **texto claro**.  
+- **Título e subtítulo lado a lado**, com espaçamento entre eles.  
+- Título principal com espaçamento lateral de **1em**.  
+
+### 3. Menus
+- **Removidos bullets** dos itens.  
+- **Espaçamento de 1em** entre itens de menu.  
+- Itens **centralizados**.  
+
+### 4. Rodapé
+- **Inversão de cores** para contraste.  
+- Espaçamento externo de **4%**.  
+- Links transformados em caixas: **borda de 2px**, **padding de 0.5em**.  
+
+---
+
+## 📝 Atividade 4 - Reposicionamento de Elementos
+- `.page-wrapper` definido como referência (`position: relative`).  
+- `.explanation` configurado para ocupar **60% da largura**, com:  
+  - `margin-right: 35%`  
+  - **borda direita de 1px** na cor `#1f295c`  
+  - **padding interno de 2%** à direita.  
+- `.design-selection` movido para a direita da página com:  
+  - `position: absolute`  
+  - `top: 560px` (início após a introdução)  
+  - `left: 62%` (ao lado da seção explanation)  
+  - **padding horizontal de 2%**.  
+
+---
+
+## 📝 Atividade 5 - Layout com Flexbox
+### 1. Rodapé da seção principal
+- Aplicado **flexbox** no rodapé da seção principal.  
+- Links centralizados, com espaçamento (`gap`).  
+- Todos os links com o **mesmo tamanho** mínimo.  
+- Tratamento para **quebra de linha** com `flex-wrap`.  
+
+### 2. Seção de benefícios
+- Layout em **flexbox**.  
+- Texto ocupa **70% da largura** à esquerda.  
+- Título ocupa **30% da largura** à direita.  
+- Título **centralizado verticalmente**.  
+- Linha superior (`border-top`) e inferior (`border-bottom`) aplicadas.  
+
+### 3. Seção de participação
+- Layout em **flexbox**.  
+- Cada item ocupa **50% da largura**.  
+- Título centralizado verticalmente.  
+- Linha inferior (`border-bottom`) aplicada.  
+
+### 4. Bordas
+- **Removida duplicação de bordas** entre benefícios e participação.  
+
+---
+
+## 📝 Atividade 6 - Links e pseudo-elementos
+### 1. Links
+- Cor de destaque aplicada e **negrito por padrão**.  
+- `:hover` → tonalidade mais clara.  
+- `:visited` → cor mais escura e **sem negrito**.  
+
+### 2. Primeira letra do primeiro parágrafo
+- Estilizada com `::first-letter`.  
+- **3x maior** que a fonte padrão.  
+- Fonte diferente (**Georgia serif**).  
+- Flutuando à esquerda com pequeno espaçamento.  
+
+### 3. Menu de designs
+- Cada item com **borda superior**.  
+- Apenas o **último item** com borda inferior.  
+
+---
+
+## 🚀 Como visualizar
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/css-zen-garden.git
