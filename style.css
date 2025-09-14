@@ -1,0 +1,38 @@
+/* ===========================
+   CSS Zen Garden - Atividade 6
+   =========================== */
+
+/* 1. Aparência dos links */
+a {
+  color: #6A994E;          /* cor de destaque */
+  font-weight: bold;       /* negrito por padrão */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A7C957;          /* tonalidade mais clara no hover */
+}
+
+a:visited {
+  font-weight: normal;     /* visitados não ficam em negrito */
+  color: #386641;          /* tonalidade mais escura */
+}
+
+/* 2. Primeira letra do primeiro parágrafo da seção principal */
+.main p:first-of-type::first-letter {
+  font-size: 3em;          /* 3x maior */
+  font-family: "Georgia", serif;  /* fonte diferente */
+  float: left;             /* flutua à esquerda */
+  line-height: 1;          /* melhora alinhamento vertical */
+  margin-right: 0.2em;     /* espaço entre a letra e o texto */
+}
+
+/* 3. Separadores no menu de design */
+.design-selection ul li {
+  border-top: 1px solid #1f295c;   /* todos com borda superior */
+  padding: 0.5em 0;
+}
+
+.design-selection ul li:last-child {
+  border-bottom: 1px solid #1f295c;  /* só o último tem borda inferior */
+}
